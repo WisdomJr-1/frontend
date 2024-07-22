@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    /> -->
+
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <label class="logo">BFM FASHION</label>
+      <ul>
+        <li><a class="active" href="../index.html">HOME</a></li>
+        <li><a href="./service.html">SERVICE</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./project.html">PROJECT</a></li>
+        <li><a href="./contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <section>
+      <main>
+        <div class="services">
+          <h2>Our Services</h2>
+          <p>
+            We provide resources and workshops on fashion, including fashion
+            history, styling tips, and industry insights.
+          </p>
+        </div>
+        <div>
+          <h3 id="best">We Provide Best Service For You</h3>
+          <p></p>
+        </div>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="">
+              <img
+                src="../media/pexels-liza-summer-6347552.jpg"
+                alt="Cinque Terre"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc"></div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="">
+              <img
+                src="../media/clothing-rack-with-floral-hawaiian-shirts-hangers-hat (1).jpg"
+                alt="Forest"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc"></div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="">
+              <img
+                src="../media/drawing-fashion-designer-e1649869664338.jpg"
+                alt="Northern Lights"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc"></div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_mountains.jpg">
+              <img
+                src="../media/workshop-with-clothes-sewing-machine.jpg"
+                alt="Mountains"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc"></div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div style="padding: 6px"></div>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_mountains.jpg">
+              <img
+                src="../media/pexels-cristian-rojas-8030150.jpg"
+                alt="Mountains"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc"></div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div style="padding: 6px"></div>
+      </main>
+      <footer>
+        <div class="end">
+          <h1>BFM FASHION</h1>
+          <ul id="last-social">
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <li>
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/p/C09AHbAMDyh/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+          <h2>Contact Info</h2>
+          <p>Phone:(+234)8106844565<br />Email: bfm@gmail.com</p>
+          <h3>Make Appointment</h3>
+          <p>Monday - Saturday: 08:00 AM - 06:00 PM<br /></p>
+          <h3>Subscribe Our NewsLetter</h3>
+          <div class="jj">
+            <form id="newsletter" method="post">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <style>
+      .services {
+        background-color: rgba(80, 8, 8, 0.836);
+        color: white;
+        text-align: center;
+        padding: 100px;
+      }
+      #best {
+        text-align: center;
+        padding: 7px;
+        font-size: x-large;
+        /* container for images start here */
+      }
+      div.gallery {
+        border: 1px solid #ccc;
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+
+      @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .projects {
+        background-color: rgba(80, 8, 8, 0.836);
+        color: white;
+        text-align: center;
+        justify-content: center;
+        padding: 100px;
+      }
+      /* footer start here */
+      .end {
+        text-align: center;
+        margin: 30px;
+        h2 {
+          margin-top: 20px;
+        }
+        p {
+          margin-top: 20px;
+          color: #cccccc;
+        }
+        h3 {
+          margin-top: 20px;
+        }
+      }
+      #last-social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+        border-radius: 20px;
+      }
+      /* subscribe our news letter form start here */
+
+      form input,
+      form button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 1em;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+      }
+
+      form button {
+        background: #aa4848;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+
+      form button:hover {
+        background: #555;
+      }
+    </style>
+  </body>
+</html>

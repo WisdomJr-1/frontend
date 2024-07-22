@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <label class="logo">BFM FASHION</label>
+      <ul>
+        <li><a class="active" href="../index.html">HOME</a></li>
+        <li><a href="./service.html">SERVICE</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./project.html">PROJECT</a></li>
+        <li><a href="./contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <section>
+      <main>
+        <div class="contact">
+          <h2>Contact Us</h2>
+          <p>
+            "Get in Touch with Us! At BFM, we value your feedback, questions,
+            and concerns. Our dedicated team is always here to help you with any
+            queries or issues you may have. Please don't hesitate to reach out
+            to us. We'll respond to your inquiry within 24 hours and do our best
+            to resolve any issues promptly.
+          </p>
+        </div>
+        <div id="textbox">
+          <h1 class="textbox">Contact Info</h1>
+          <div id="internal_links">
+            <div class="link">
+              <i class="fa-solid fa-location-pin"></i>
+              <p>N0.42 Wonderland Estate, along games village Abuja</p>
+            </div>
+            <div class="link">
+              <i class="fa-solid fa-phone"></i>
+              <p>(+234)8106844565</p>
+            </div>
+            <div class="link">
+              <i class="fa fa-inbox"></i>
+              <p>bfm@gmail.com</p>
+            </div>
+            <div class="link">
+              <i class="fa-regular fa-circle-xmark"></i>
+              <p>Monday - Saturday 08:00 AM - 6:00 PM</p>
+            </div>
+            <div id="box">
+              <h2 class="box">Stay Connected</h2>
+              <br />
+              <p>
+                "Stay Connected with Us! Want to stay up-to-date on the latest
+                fashion trends, new arrivals, and exclusive promotions? Follow
+                us on social media!<br />
+              </p>
+
+              <div class="social">
+                <ul>
+                  <a href=""
+                    ><i class="fa-brands fa-square-facebook"></i>Facebook</a
+                  >
+                  <li>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i>Twitter</a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/p/C09AHbAMDyh/"
+                      ><i class="fa-brands fa-instagram"></i>Instagram</a
+                    >
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-youtube"></i>Youtube</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section id="contact">
+          <div class="container">
+            <h2>Leave A Message</h2>
+            <form id="contact-form" method="post">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="end">
+          <h1>BFM FASHION</h1>
+          <ul id="last-social">
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <li>
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/p/C09AHbAMDyh/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+          <h2>Contact Info</h2>
+          <p>Phone:(+234)8106844565<br />Email: bfm@gmail.com</p>
+          <h3>Make Appointment</h3>
+          <p>Monday - Saturday: 08:00 AM - 06:00 PM<br /></p>
+          <h3>Subscribe Our NewsLetter</h3>
+          <div class="jj">
+            <form id="newsletter" method="post">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <style>
+      .textbox {
+        font-size: xx-large;
+        width: 400px;
+        height: 300px;
+        padding: 10px;
+        border: 1px;
+        margin-top: 20px;
+        margin-left: 20px;
+        background: rgba(245, 67, 67, 0.836);
+        border-radius: 10px;
+      }
+      .contact {
+        background-color: rgba(80, 8, 8, 0.836);
+        color: white;
+        text-align: center;
+        justify-content: center;
+        padding: 100px;
+      }
+      #internal_links {
+        height: 65vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.875rem;
+        position: relative;
+        bottom: 240px;
+        margin-left: 30px;
+        color: white;
+      }
+
+      .link {
+        display: flex;
+        gap: 5px;
+        align-items: flex-start;
+      }
+      #box {
+        width: 400px;
+
+        padding: 10px;
+        border: 1px;
+        margin-top: 70px;
+        background: rgba(245, 67, 67, 0.836);
+        border-radius: 10px;
+      }
+
+      .social {
+      }
+      /* contact me form start here */
+      #contact {
+        background-color: #f7f4f4;
+        width: 60%;
+        border-radius: 10px;
+      }
+      form input,
+      form textarea,
+      form button {
+        display: block;
+        width: 60%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 1em;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        align-content: center;
+        justify-content: center;
+      }
+
+      form button {
+        background: #5a1616;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+
+      form button:hover {
+        background: #2e2727;
+      }
+      /* footer start here */
+      .end {
+        text-align: center;
+        margin: 30px;
+        h2 {
+          margin-top: 20px;
+        }
+        p {
+          margin-top: 20px;
+          color: #cccccc;
+        }
+        h3 {
+          margin-top: 20px;
+        }
+      }
+      #last-social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+        border-radius: 20px;
+      }
+      /* subscribe our news letter form start here */
+
+      form input,
+      form button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 1em;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+      }
+
+      form button {
+        background: #aa4848;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+
+      form button:hover {
+        background: #555;
+      }
+
+      .jj {
+        position: relative;
+      }
+    </style>
+  </body>
+</html>
